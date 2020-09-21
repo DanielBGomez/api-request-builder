@@ -1,0 +1,35 @@
+{
+  "name": "api-request-builder",
+  "version": "1.0.0",
+  "description": "Simple request builder on top of Axios that allows pre-configured options, query params parser and errors to text with a Lang option",
+  "main": "Api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielBGomez/api-request-builder.git"
+  },
+  "keywords": [
+    "Axios",
+    "request",
+    "promises",
+    "builder",
+    "parser",
+    "lang",
+    "pre-configured",
+    "api",
+    "danielbgomez"
+  ],
+  "author": "Daniel B Gomez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielBGomez/api-request-builder/issues"
+  },
+  "homepage": "https://github.com/DanielBGomez/api-request-builder#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "deepmerge": "^4.2.2",
+    "query-string": "^6.13.2"
+  }
+}
