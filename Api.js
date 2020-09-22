@@ -64,7 +64,7 @@ class ApiRequestBuilder {
         let { vars = {}, params = {} } = buildParams
 
         // Base URL
-        let url = `${server}${endpoint ? `/{${endpoint}}` : ''}`
+        let url = `${server}${endpoint ? `/${endpoint}` : ''}`
         // Path
         if(path) {
             // Merge vars if has default
