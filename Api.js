@@ -57,11 +57,10 @@ class ApiRequestBuilder {
         const {
             server = this.server,
             endpoint = this.endpoint,
-            path = this.path,
             token = this.token,
             tokenAsParam = this.tokenAsParam,
         } = buildParams
-        let { vars = {}, params = {} } = buildParams
+        let { path = this.path, vars = {}, params = {} } = buildParams
 
         // Base URL
         let url = `${server}${endpoint ? `/${endpoint}` : ''}`

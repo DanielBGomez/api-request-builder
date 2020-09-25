@@ -1,11 +1,9 @@
 {
   "name": "api-request-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple request builder on top of Axios that allows pre-configured options, query params parser and errors to text with a Lang option",
   "main": "Api.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DanielBGomez/api-request-builder.git"
