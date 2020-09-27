@@ -80,7 +80,7 @@ class ApiRequestBuilder {
         // Token as param?
         if(tokenAsParam) params[tokenAsParam] = token
         // Stringify params and append to url if has elements
-        if(Object.keys(params).length) url += QueryString.stringify( params )
+        if(Object.keys(params).length) url += `?${QueryString.stringify( params )}`
         // All done!
         return url
     }
