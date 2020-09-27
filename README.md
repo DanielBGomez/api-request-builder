@@ -21,7 +21,7 @@ const apiRequestBuilder = require('api-request-builder')
 // Default params for all requests
 const DEFAULT_PARAMS = {
   server: "/api",   // Self domain requests to '/api' path
-  timeout: 5000    // 10s timeout
+  timeout: 5000     // 5s timeout
 }
 
 // Initialize
