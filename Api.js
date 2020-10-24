@@ -203,7 +203,7 @@ class ApiRequestBuilder {
                 break
         }
         // Return - langed status code || Default status text || Raw data
-        return lang[status] || statusText || data
+        return lang[statusText] || lang[status] || statusText || data
     }
 }
 
