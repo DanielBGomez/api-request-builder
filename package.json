@@ -1,6 +1,6 @@
 {
   "name": "api-request-builder",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple request builder on top of Axios that allows pre-configured options, query params parser and errors to text with a Lang option",
   "main": "Api.js",
   "scripts": {},

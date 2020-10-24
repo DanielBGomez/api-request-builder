@@ -10,7 +10,10 @@ const axios = require('axios')
 /**
  * @class ApiRequestBuilder
  * 
- * @todo 
+ * @todo namespaces
+ * @todo cancel requests
+ * @todo replace/abort request by namespace
+ * @todo default callbacks/actions by status code
  */
 class ApiRequestBuilder {
     constructor(params = {}){
